@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-item {
+  padding-left: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  position: relative;
+}
+
+.nv1::before {
+  content: "";
+  position: absolute;
+  left: 36%;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background-color: #4a4a4a;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nv1:hover::before {
+  width: 56%;
+}
+
+.nv2::before {
+  content: "";
+  position: absolute;
+  left: 33%;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background-color: #4a4a4a;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nv2:hover::before {
+  width: 59%;
+}
+
+.nv3::before {
+  content: "";
+  position: absolute;
+  left: 28%;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background-color: #4a4a4a;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nv3:hover::before {
+  width: 66%;
+}
+
+.nv4::before {
+  content: "";
+  position: absolute;
+  left: 29%;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background-color: #4a4a4a;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nv4:hover::before {
+  width: 64%;
+}
+
+.header {
+  background: url(../images/banner.jpg);
+  background-attachment: fixed;
+  height: 768px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sec1 {
+  padding-top: 8.5rem;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 8rem;
+}
+
+.heading h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #8caf24;
+}
+
+.heading p {
+  font-size: 3rem;
+  padding-top: 3rem;
+  color: #4a4a4a;
+}
+
+.heading button {
+  padding: 1rem;
+  margin-top: 3rem;
+  background: -webkit-gradient(linear, left top, right top, from(#36c802), to(#1efc65));
+  background: linear-gradient(to right, #36c802, #1efc65);
+  padding-right: 6rem;
+  padding-left: 6rem;
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0px 15px 15px #cacaca;
+          box-shadow: 0px 15px 15px #cacaca;
+}
+
+.heading button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#1efc65), to(#36c802));
+  background: linear-gradient(to right, #1efc65, #36c802);
+}
+
+.loan {
+  font-size: 3.8rem;
+  color: #04cc41;
+}
+
+.sec1 {
+  margin-top: 3rem;
+}
+
+.top1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.img {
+  padding: 7rem;
+}
+
+#about {
+  overflow: hidden;
+}
+
+.about-sec {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about-sec h1 {
+  font-size: 5.5rem;
+  color: #4a4a4a;
+}
+
+.about-sec p {
+  font-size: 2rem;
+  padding-top: 3.5rem;
+  color: #4a4a4a;
+}
+
+.about-sec h1::before {
+  content: "";
+  position: absolute;
+  background: #4a4a4a;
+  height: 0.6rem;
+  top: 35%;
+  left: 3%;
+  width: 10rem;
+}
+
+.about-sec h1::after {
+  content: "Sri Vinayaka Associates";
+  position: absolute;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  top: 33%;
+  left: 24%;
+}
+
+.box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4rem;
+  border-radius: 7%;
+  height: 400px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.box1:hover {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-box-shadow: 0px 20px 25px #999999;
+          box-shadow: 0px 20px 25px #999999;
+  background: #04cc41;
+  color: #ffffff;
+}
+
+.box1 img {
+  padding: 1.6rem;
+}
+
+.box1 h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.box1 p {
+  font-size: 2rem;
+  padding: 1.5rem;
+  font-weight: 450;
+}
+
+.carousel-inner {
+  padding: 2rem;
+}
+
+.carousel-indicators li {
+  background-color: #04cc41 !important;
+}
+
+.servicesH {
+  font-size: 5rem;
+  color: #4a4a4a;
+}
+
+.servicesH::before {
+  content: "";
+  position: absolute;
+  height: 0.6rem;
+  background: #4a4a4a;
+  top: 95%;
+  left: 1.5%;
+  width: 12rem;
+}
+
+.wrapweb {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.new {
+  position: relative;
+}
+
+#services {
+  position: relative;
+}
+
+#services::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+  background: linear-gradient(20deg, #cdf5d9 0%, #cdf5d9 16%, #fff 0%, #fff 66%, #cdf5d9 0%, #cdf5d9 67%);
+}
+
+.wrapmob {
+  display: none;
+}
+
+#contact {
+  font-size: 2rem;
+  padding: 10rem;
+  position: relative;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+  background: linear-gradient(-155deg, #04cc41 40%, #fff 0%);
+}
+
+.project-work {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: #4a4a4a;
+}
+
+.chead {
+  font-size: 5rem;
+  color: #4a4a4a;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.chead::before {
+  content: "";
+  position: absolute;
+  height: 0.6rem;
+  background: #4a4a4a;
+  top: 85%;
+  left: 1.5%;
+  width: 12rem;
+}
+
+.end1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.end1 .callnmail {
+  font-size: 1.5rem;
+  color: #5e5e5e;
+}
+
+.end1 h2 {
+  font-size: 3rem;
+  color: #4a4a4a;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  background-color: #4e4d4d;
+}
+
+::-webkit-input-placeholder {
+  color: #d6d4d4;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #d6d4d4;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #d6d4d4;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #d6d4d4;
+  opacity: 1;
+}
+
+.btn {
+  border-radius: 0;
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+.form-group input {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: none;
+  -webkit-box-shadow: 0px 5px 10px #979797;
+          box-shadow: 0px 5px 10px #979797;
+}
+
+.form-group textarea {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: none;
+  -webkit-box-shadow: 0px 5px 10px #979797;
+          box-shadow: 0px 5px 10px #979797;
+}
+
+.form button {
+  padding: 1rem;
+  margin-top: 3rem;
+  background: -webkit-gradient(linear, left top, right top, from(#36c802), to(#1efc65));
+  background: linear-gradient(to right, #36c802, #1efc65);
+  padding-right: 6rem;
+  padding-left: 6rem;
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  border-radius: 1.5rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0px 15px 15px #cacaca;
+          box-shadow: 0px 15px 15px #cacaca;
+  padding: .5rem 3rem .5rem 3rem;
+}
+
+.form button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#1efc65), to(#36c802));
+  background: linear-gradient(to right, #1efc65, #36c802);
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#0ae0f0), to(#04cc41));
+  background: linear-gradient(to right, #0ae0f0, #04cc41);
+}
+
+#footer p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  html {
+    font-size: 45%;
+  }
+  .nav-item {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .nv1::before {
+    display: none;
+  }
+  .nv2::before {
+    display: none;
+  }
+  .nv3::before {
+    display: none;
+  }
+  .nv4::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 48%;
+  }
+  .img1 {
+    display: none;
+  }
+  .header {
+    background: url(../images/mobbanner.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .heading {
+    margin-left: 2rem;
+  }
+  .nav-item {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .sec1 {
+    padding-top: 15rem;
+  }
+  .navbar {
+    background: #ffffff;
+  }
+  .img {
+    text-align: center;
+  }
+  .about-sec {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-sec h1::before {
+    content: "";
+    position: absolute;
+    background: #4a4a4a;
+    height: 0.6rem;
+    top: 32%;
+    left: 20%;
+    width: 10rem;
+  }
+  .about-sec h1::after {
+    content: "Sri Vinayaka Associates";
+    position: absolute;
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    top: 30.9%;
+    left: 45%;
+  }
+  .wrapweb {
+    display: none;
+  }
+  .wrapmob {
+    display: block;
+  }
+  .servicesH::before {
+    content: "";
+    position: absolute;
+    top: 9%;
+    left: 5%;
+  }
+  .chead::before {
+    content: "";
+    position: absolute;
+    top: 85%;
+    left: 5%;
+  }
+  .happy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact {
+    padding: 4rem;
+    font-size: 2rem;
+  }
+  #contact::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    background: linear-gradient(-65deg, #04cc41 40%, #fff 0%);
+  }
+  .servicesH {
+    margin-bottom: 1.5rem;
+  }
+  .servicesH::before {
+    content: "";
+    position: absolute;
+    height: 0.6rem;
+    background: #4a4a4a;
+    top: 95%;
+    left: 5%;
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .header {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
