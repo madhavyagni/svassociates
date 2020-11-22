@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -218,7 +219,7 @@ html {
   position: absolute;
   background: #4a4a4a;
   height: 0.6rem;
-  top: 35%;
+  top: 29.5%;
   left: 3%;
   width: 10rem;
 }
@@ -228,7 +229,7 @@ html {
   position: absolute;
   font-size: 1.5rem;
   color: #4a4a4a;
-  top: 33%;
+  top: 28%;
   left: 24%;
 }
 
