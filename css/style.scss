@@ -297,6 +297,12 @@ html {
         z-index: -1;
         background: linear-gradient(-155deg, $greenColor1 40%, #fff 0%);
     }
+    input{
+        font-size: 1.4rem;
+    }
+    textarea{
+        font-size: 1.4rem;
+    }
 }
 
 

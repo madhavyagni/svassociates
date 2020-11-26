@@ -349,6 +349,14 @@ html {
   background: linear-gradient(-155deg, #04cc41 40%, #fff 0%);
 }
 
+#contact input {
+  font-size: 1.4rem;
+}
+
+#contact textarea {
+  font-size: 1.4rem;
+}
+
 .project-work {
   margin-top: 4rem;
   margin-bottom: 4rem;
